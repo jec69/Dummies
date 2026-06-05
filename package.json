@@ -1,0 +1,27 @@
+{
+  "name": "dummies",
+  "version": "1.0.0",
+  "description": "Aplicación web mínima para gestión de usuarios, autenticación y evidencias SDLC usando Node.js, Express, MySQL y GitHub Projects.\r Proyecto GIWD - estructura inicial del sistema.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jec69/Dummies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jec69/Dummies/issues"
+  },
+  "homepage": "https://github.com/jec69/Dummies#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
