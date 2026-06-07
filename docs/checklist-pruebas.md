@@ -1,30 +1,19 @@
-Checklist de Pruebas
+# Checklist de Pruebas Manuales
 
-Prueba 1: Inicio del servidor
+| Prueba | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|
+| Inicio del servidor | El backend inicia en puerto 3000 | Servidor funcionando correctamente | Aprobado |
+| Login correcto | Permite acceso con credenciales válidas | Login exitoso | Aprobado |
+| Login incorrecto | Rechaza credenciales inválidas | Credenciales incorrectas | Aprobado |
+| Logout | Cierra sesión correctamente | Logout exitoso | Aprobado |
+| Consulta de usuarios | Muestra la lista de usuarios | Lista mostrada correctamente | Aprobado |
+| Control de versiones | Se crean ramas, commits y push | Cambios subidos a GitHub | Aprobado |
+| Pull Request | Se crea PR para revisión | PR creado y revisado | Aprobado |
 
-* Se ejecutó el comando node app.js
-* El servidor inició correctamente en el puerto 3000
-* Resultado: Correcto
+## Evidencias
 
-Prueba 2: Consulta de usuarios
+Las capturas de las pruebas se encuentran en la carpeta evidencias.
 
-* Se accedió a la ruta http://localhost:3000/usuarios
-* El sistema mostró la lista de usuarios
-* Resultado: Correcto
+## Conclusión
 
-Prueba 3: Control de versiones
-
-* Se creó la rama feature/crud-usuarios
-* Se realizaron commits de los cambios
-* Se realizó push al repositorio remoto
-* Resultado: Correcto
-
-Prueba 4: Integración con GitHub
-
-* Se creó una Pull Request
-* Los cambios quedaron disponibles para revisión
-* Resultado: Correcto
-
-Conclusión
-
-Las pruebas realizadas fueron exitosas. El servidor se ejecutó correctamente, la consulta de usuarios funcionó y los cambios fueron integrados mediante Git y GitHub.
+Las pruebas manuales realizadas fueron exitosas. El sistema ejecutó correctamente el servidor, validó login y logout, permitió consultar usuarios y se integraron los cambios mediante GitHub.
